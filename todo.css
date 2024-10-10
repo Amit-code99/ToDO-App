@@ -1,0 +1,80 @@
+body{
+   background-image: url(image/A.jpeg );
+   background-repeat: no-repeat;
+   background-size: cover;
+    /*background-color:  #3e5151 ; */
+}
+#main-heading{
+    font-size: 50px;
+    text-shadow: 2px 2px;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    margin-left: 35%;
+
+}
+
+#todo-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    margin-left: 35%;
+
+
+}
+#todo-input{
+    font-size: 18px;
+    padding: 18px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(132, 147, 159);
+    box-shadow: 2px 2px 2px;
+    opacity: 0.8;
+    
+}
+#todo-date{
+    font-size: 18px;
+    padding: 18px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(132, 147, 159);
+    box-shadow: 2px 2px 2px;
+    opacity: 0.8;
+
+}
+
+.spn-btn{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.delete-btn{
+    background-color: rgb(92, 7, 7);
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: rgb(196, 168, 168);
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px;
+}
+
+#add-btn{
+    background-color: darkgreen;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: rgb(196, 168, 168);
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px;
+
+}
